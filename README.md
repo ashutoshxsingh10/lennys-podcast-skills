@@ -54,22 +54,45 @@ See [evaluation/comparison.md](evaluation/comparison.md) for detailed side-by-si
 
 ## Installation
 
-### For Cursor
-
-Copy the skill folders to your Cursor skills directory:
+### Option 1: Clone & Copy (Recommended)
 
 ```bash
-# macOS/Linux
-cp -r skills/* ~/.cursor/skills/
-
-# Or clone directly
 git clone https://github.com/ashutoshxsingh10/lennys-podcast-skills.git
 cp -r lennys-podcast-skills/skills/* ~/.cursor/skills/
 ```
 
-### For Other AI Assistants
+### Option 2: One-liner
 
-Reference the SKILL.md files in your system prompts or attach them as context.
+```bash
+curl -sL https://github.com/ashutoshxsingh10/lennys-podcast-skills/archive/main.tar.gz | tar xz && cp -r lennys-podcast-skills-main/skills/* ~/.cursor/skills/
+```
+
+### Option 3: Manual Download
+
+1. Click **Code** → **Download ZIP** above
+2. Extract the ZIP file
+3. Copy contents of `skills/` folder to `~/.cursor/skills/`
+
+### Skills Location by Tool
+
+| Tool | Copy skills to |
+|------|----------------|
+| **Cursor** | `~/.cursor/skills/` |
+| **Claude Code** | `~/.claude/skills/` or project root |
+| **Other AI assistants** | Attach SKILL.md files as context |
+
+### Verify Installation
+
+After copying, you should have:
+```
+~/.cursor/skills/
+├── product-discovery/
+│   └── SKILL.md
+├── prd-writing/
+│   └── SKILL.md
+└── behavior-ux-design/
+    └── SKILL.md
+```
 
 ## Usage Example
 
