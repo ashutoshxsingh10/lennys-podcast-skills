@@ -63,7 +63,7 @@ Copy the skill folders to your Cursor skills directory:
 cp -r skills/* ~/.cursor/skills/
 
 # Or clone directly
-git clone https://github.com/YOUR_USERNAME/lennys-podcast-skills.git
+git clone https://github.com/ashutoshxsingh10/lennys-podcast-skills.git
 cp -r lennys-podcast-skills/skills/* ~/.cursor/skills/
 ```
 
