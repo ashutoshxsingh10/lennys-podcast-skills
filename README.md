@@ -94,17 +94,6 @@ After copying, you should have:
     └── SKILL.md
 ```
 
-## Usage Example
-
-**Input (3-5 sentences):**
-> I'm building an AI tutor for K-12 students. Target users are parents who want to help kids with homework. The problem is kids struggle with math and parents can't explain concepts using modern teaching methods.
-
-**Output with product-discovery skill:**
-- Full JTBD analysis with struggling moments, push/pull forces
-- Target user profile with "very disappointed" criteria
-- 3-level validation plan with specific methods and success metrics
-- PMF criteria with 40% threshold
-
 ## How These Skills Were Created
 
 1. Processed 299 episodes of Lenny's Podcast transcripts
