@@ -13,13 +13,20 @@ All product wisdom in these skills is sourced from **Lenny's Podcast by Lenny Ra
 
 Agent Skills are structured markdown files that give AI assistants domain expertise. Instead of generic responses, the AI uses embedded frameworks, examples, and methodologies from experts to produce actionable outputs.
 
-## Available Skills
+## Available Skills (10 Total)
 
 | Skill | Description | Key Frameworks |
 |-------|-------------|----------------|
-| **product-discovery** | Run product discovery, JTBD analysis, validation plans | Bob Moesta's JTBD, Sean Ellis PMF Test, Jen Abel's Validation |
-| **prd-writing** | Write PRDs using proven product frameworks | Amazon Working Backwards, Shreyas Doshi's Impact/Execution/Optics |
-| **behavior-ux-design** | Design habit-forming UX with behavioral science | Kristen Berman's Three Bs, Nir Eyal's Hooked Model, Duolingo patterns |
+| **product-discovery** | Run product discovery, JTBD analysis, validation plans | Bob Moesta's JTBD, Sean Ellis PMF Test |
+| **prd-writing** | Write PRDs using proven product frameworks | Amazon Working Backwards, Shreyas Doshi |
+| **behavior-ux-design** | Design habit-forming UX with behavioral science | Nir Eyal's Hooked Model, Three Bs |
+| **user-research** | Design and run user research studies | JTBD interviews, Research synthesis |
+| **onboarding-design** | Design activation flows that convert | First-run experience, Time to value |
+| **validation-testing** | Validate ideas before building | Fake door tests, Concierge MVP |
+| **growth-experiments** | Design and run growth experiments | Experiment frameworks, A/B testing |
+| **product-metrics** | Define and track product metrics | North Star, AARRR funnel, Metric trees |
+| **retention-engagement** | Build retention and engagement systems | Churn prevention, Engagement loops |
+| **feature-prioritization** | Prioritize features and roadmaps | RICE, Impact/Effort, Four Types of Work |
 
 ## Evaluation Results
 
@@ -29,10 +36,17 @@ We tested these skills using an automated evaluation pipeline with Claude as an 
 
 | Skill | With Skill | Without Skill | Improvement |
 |-------|------------|---------------|-------------|
-| product-discovery | 4.72 | 3.44 | **+1.28** |
-| prd-writing | 4.26 | 3.44 | **+0.82** |
 | behavior-ux-design | 4.73 | 3.44 | **+1.29** |
-| **Average** | **4.57** | **3.44** | **+1.13** |
+| product-discovery | 4.72 | 3.44 | **+1.28** |
+| user-research | 4.44 | 3.60 | **+0.84** |
+| onboarding-design | 4.36 | 3.38 | **+0.98** |
+| validation-testing | 4.32 | 3.33 | **+0.99** |
+| growth-experiments | 4.27 | 3.14 | **+1.13** |
+| prd-writing | 4.26 | 3.44 | **+0.82** |
+| product-metrics | 3.89 | 3.21 | **+0.68** |
+| retention-engagement | 3.84 | 3.14 | **+0.70** |
+| feature-prioritization | 3.24 | 2.66 | **+0.58** |
+| **Average** | **4.21** | **3.28** | **+0.93** |
 
 ### Evaluation Rubric
 
